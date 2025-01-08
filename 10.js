@@ -31,8 +31,7 @@
 
 function groupBy(arr, key) {
   // 배열을 순회해서 키값이 동일한 객체끼리 빈배열에 추가?
-  // 
-  const result = [];
+  
 
 }
 

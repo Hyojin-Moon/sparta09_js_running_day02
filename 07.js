@@ -27,7 +27,7 @@
 function get20sEmail(arr) {
   const emailArr = arr
   .filter((e) => e.age >= 20 && e.age < 30)
-  .sort((a,b) => a.age - b.age)
+  .sort((a, b) => a.age - b.age)
   .map((e) => e.email);
   if(!emailArr){
     return [];
