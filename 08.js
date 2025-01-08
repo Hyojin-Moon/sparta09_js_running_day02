@@ -15,8 +15,13 @@
 
 // TODO: chunkArray 함수를 작성하세요.
 function chunkArray(arr, size) {
-  // TODO
+  //배열을 돌면서 size 개수만큼 구한다 > 구한 숫자를 size의 갯수만큼 빈배열에 넣는다 
+  const result = [];
+  for(let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
+  }                     //0, 0+2 2, 2+2 end미포함
+  return result;
 }
-
+console.log(chunkArray([1,2,3,4,5], 2));
 // export를 수정하지 마세요.
 export { chunkArray };
