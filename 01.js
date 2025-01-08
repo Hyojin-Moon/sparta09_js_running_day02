@@ -7,6 +7,6 @@
  */
 
 const array = [];
-
+d
 //export를 수정하지 마세요.
 export { array };
